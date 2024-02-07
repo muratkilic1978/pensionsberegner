@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Pensionsberegner</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Pensionsberegner</h1>
+    <form id="pensionForm">
+      <label for="birthdate">Indtast din fødselsdato:</label>
+      <input type="date" id="birthdate" required>
+      <button type="button" onclick="calculatePension()">Beregn</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
